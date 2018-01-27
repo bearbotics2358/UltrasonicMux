@@ -47,6 +47,8 @@ int leds[4] = {10, 15, 17, 19};
 int letters[4] = {'A', 'B', 'C', 'D'};
 // channel enable flags
 int enable[4] = {1, 1, 1, 1};
+// flag for simultaneous operation
+int simul = 0;
 char cmd_buf[10];
 int cmd_index = 0;
 
@@ -100,9 +102,15 @@ void loop()
         // temp variables in case optimizer is not efficient
         c1 = toupper(cmd_buf[0]);
         c2 = cmd_buf[1];
-        if((c1 >= 'A') && (c1 <= 'D')
-        && (c2 >= '0') && (c2 <= '1')) {
-          enable[int(c1 - 'A')] = int(c2 - '0');
+        if(c1 >= 'A') && (c1 <= 'D') {
+          if(c2 >= '0') && (c2 <= '1') {
+            enable[int(c1 - 'A')] = int(c2 - '0');
+          }
+        } else if(c1 == 'S') {
+           if(c2 >= '0') && (c2 <= '1') {
+            simul = int(c2 - '0');
+          }
+        }
         }
       }
 
