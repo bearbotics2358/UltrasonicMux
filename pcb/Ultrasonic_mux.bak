@@ -1122,7 +1122,7 @@ F 1 "GNDPWR" V 5550 1300 50  0000 C CNN
 F 2 "" H 5550 1500 50  0001 C CNN
 F 3 "" H 5550 1500 50  0001 C CNN
 	1    5550 1550
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR?
@@ -1446,4 +1446,27 @@ Text GLabel 3550 3700 0    60   Input ~ 0
 IND5
 Wire Wire Line
 	3550 3700 3700 3700
+$Comp
+L GNDPWR #PWR?
+U 1 1 5A73B5E5
+P 5250 1450
+F 0 "#PWR?" H 5250 1250 50  0001 C CNN
+F 1 "GNDPWR" H 5250 1320 50  0000 C CNN
+F 2 "" H 5250 1400 50  0001 C CNN
+F 3 "" H 5250 1400 50  0001 C CNN
+	1    5250 1450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5500 900  5250 900 
+Wire Notes Line
+	5250 900  5250 1500
+Wire Notes Line
+	6150 900  6300 900 
+Wire Notes Line
+	6300 900  6300 1050
+Wire Notes Line
+	5550 1000 5550 1550
+Wire Wire Line
+	5150 1450 5250 1450
 $EndSCHEMATC
