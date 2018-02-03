@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "V:\\Robotics Club\\FIRST\\Software\\17-18 Season\\Ultrasonic Mux\\pcb\\Ultrasonic_mux.sch")
-    (date "2/3/2018 11:49:57 AM")
+    (date "2/3/2018 1:19:39 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
