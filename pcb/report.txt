@@ -1,0 +1,706 @@
+Info: Reading netlist file "V:\Robotics Club\FIRST\Software\17-18 Season\Ultrasonic Mux\pcb\Ultrasonic_mux.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "+3V3p1:/5A757808:Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Adding new component "+3V3p1:/5A757808" footprint "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Changing component "+3V3p1:/5A757808" pin "1" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "+5Vp1:/5A757367:Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Adding new component "+5Vp1:/5A757367" footprint "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Changing component "+5Vp1:/5A757367" pin "1" net name from "" to "+5V".
+
+Info: Checking netlist component footprint "D0:/5A6FC6E7:Diodes_SMD:D_SOT-23_ANK".
+
+Adding new component "D0:/5A6FC6E7" footprint "Diodes_SMD:D_SOT-23_ANK".
+
+Changing component "D0:/5A6FC6E7" pin "2" net name from "" to "GNDPWR".
+
+Changing component "D0:/5A6FC6E7" pin "1" net name from "" to "Net-(D0-Pad1)".
+
+Info: Checking netlist component footprint "D1:/5A6FC6FF:LEDs:LED_0805_HandSoldering".
+
+Adding new component "D1:/5A6FC6FF" footprint "LEDs:LED_0805_HandSoldering".
+
+Changing component "D1:/5A6FC6FF" pin "1" net name from "" to "Net-(D1-Pad1)".
+
+Changing component "D1:/5A6FC6FF" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D2:/5A742F70:LEDs:LED_0603_HandSoldering".
+
+Adding new component "D2:/5A742F70" footprint "LEDs:LED_0603_HandSoldering".
+
+Changing component "D2:/5A742F70" pin "1" net name from "" to "Net-(D2-Pad1)".
+
+Changing component "D2:/5A742F70" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D10:/5A6FD7F3:Diodes_SMD:D_SOT-23_ANK".
+
+Adding new component "D10:/5A6FD7F3" footprint "Diodes_SMD:D_SOT-23_ANK".
+
+Changing component "D10:/5A6FD7F3" pin "2" net name from "" to "GNDPWR".
+
+Changing component "D10:/5A6FD7F3" pin "1" net name from "" to "Net-(D10-Pad1)".
+
+Info: Checking netlist component footprint "D11:/5A6FD80B:LEDs:LED_0805_HandSoldering".
+
+Adding new component "D11:/5A6FD80B" footprint "LEDs:LED_0805_HandSoldering".
+
+Changing component "D11:/5A6FD80B" pin "1" net name from "" to "Net-(D11-Pad1)".
+
+Changing component "D11:/5A6FD80B" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D12:/5A73E3A2:LEDs:LED_0603_HandSoldering".
+
+Adding new component "D12:/5A73E3A2" footprint "LEDs:LED_0603_HandSoldering".
+
+Changing component "D12:/5A73E3A2" pin "1" net name from "" to "Net-(D12-Pad1)".
+
+Changing component "D12:/5A73E3A2" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D20:/5A6FDC3E:Diodes_SMD:D_SOT-23_ANK".
+
+Adding new component "D20:/5A6FDC3E" footprint "Diodes_SMD:D_SOT-23_ANK".
+
+Changing component "D20:/5A6FDC3E" pin "2" net name from "" to "GNDPWR".
+
+Changing component "D20:/5A6FDC3E" pin "1" net name from "" to "Net-(D20-Pad1)".
+
+Info: Checking netlist component footprint "D21:/5A6FDC59:LEDs:LED_0805_HandSoldering".
+
+Adding new component "D21:/5A6FDC59" footprint "LEDs:LED_0805_HandSoldering".
+
+Changing component "D21:/5A6FDC59" pin "1" net name from "" to "Net-(D21-Pad1)".
+
+Changing component "D21:/5A6FDC59" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D22:/5A74CE13:LEDs:LED_0603_HandSoldering".
+
+Adding new component "D22:/5A74CE13" footprint "LEDs:LED_0603_HandSoldering".
+
+Changing component "D22:/5A74CE13" pin "1" net name from "" to "Net-(D22-Pad1)".
+
+Changing component "D22:/5A74CE13" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D30:/5A6FF864:Diodes_SMD:D_SOT-23_ANK".
+
+Adding new component "D30:/5A6FF864" footprint "Diodes_SMD:D_SOT-23_ANK".
+
+Changing component "D30:/5A6FF864" pin "2" net name from "" to "GNDPWR".
+
+Changing component "D30:/5A6FF864" pin "1" net name from "" to "Net-(D30-Pad1)".
+
+Info: Checking netlist component footprint "D31:/5A6FF87F:LEDs:LED_0805_HandSoldering".
+
+Adding new component "D31:/5A6FF87F" footprint "LEDs:LED_0805_HandSoldering".
+
+Changing component "D31:/5A6FF87F" pin "1" net name from "" to "Net-(D31-Pad1)".
+
+Changing component "D31:/5A6FF87F" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D32:/5A74DDF5:LEDs:LED_0603_HandSoldering".
+
+Adding new component "D32:/5A74DDF5" footprint "LEDs:LED_0603_HandSoldering".
+
+Changing component "D32:/5A74DDF5" pin "1" net name from "" to "Net-(D32-Pad1)".
+
+Changing component "D32:/5A74DDF5" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D40:/5A704642:Diodes_SMD:D_SOT-23_ANK".
+
+Adding new component "D40:/5A704642" footprint "Diodes_SMD:D_SOT-23_ANK".
+
+Changing component "D40:/5A704642" pin "2" net name from "" to "GNDPWR".
+
+Changing component "D40:/5A704642" pin "1" net name from "" to "Net-(D40-Pad1)".
+
+Info: Checking netlist component footprint "D41:/5A70465A:LEDs:LED_0805_HandSoldering".
+
+Adding new component "D41:/5A70465A" footprint "LEDs:LED_0805_HandSoldering".
+
+Changing component "D41:/5A70465A" pin "1" net name from "" to "Net-(D41-Pad1)".
+
+Changing component "D41:/5A70465A" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D42:/5A753991:LEDs:LED_0603_HandSoldering".
+
+Adding new component "D42:/5A753991" footprint "LEDs:LED_0603_HandSoldering".
+
+Changing component "D42:/5A753991" pin "1" net name from "" to "Net-(D42-Pad1)".
+
+Changing component "D42:/5A753991" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D50:/5A704680:Diodes_SMD:D_SOT-23_ANK".
+
+Adding new component "D50:/5A704680" footprint "Diodes_SMD:D_SOT-23_ANK".
+
+Changing component "D50:/5A704680" pin "2" net name from "" to "GNDPWR".
+
+Changing component "D50:/5A704680" pin "1" net name from "" to "Net-(D50-Pad1)".
+
+Info: Checking netlist component footprint "D51:/5A704698:LEDs:LED_0805_HandSoldering".
+
+Adding new component "D51:/5A704698" footprint "LEDs:LED_0805_HandSoldering".
+
+Changing component "D51:/5A704698" pin "1" net name from "" to "Net-(D51-Pad1)".
+
+Changing component "D51:/5A704698" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "D52:/5A767ED8:LEDs:LED_0603_HandSoldering".
+
+Adding new component "D52:/5A767ED8" footprint "LEDs:LED_0603_HandSoldering".
+
+Changing component "D52:/5A767ED8" pin "1" net name from "" to "Net-(D52-Pad1)".
+
+Changing component "D52:/5A767ED8" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "GNDp1:/5A757B55:Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Adding new component "GNDp1:/5A757B55" footprint "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Changing component "GNDp1:/5A757B55" pin "1" net name from "" to "GNDPWR".
+
+Info: Checking netlist component footprint "J0:/5A6FC6D5:Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Adding new component "J0:/5A6FC6D5" footprint "Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Changing component "J0:/5A6FC6D5" pin "1" net name from "" to "Net-(J0-Pad1)".
+
+Changing component "J0:/5A6FC6D5" pin "2" net name from "" to "Net-(J0-Pad2)".
+
+Changing component "J0:/5A6FC6D5" pin "3" net name from "" to "Net-(J0-Pad3)".
+
+Changing component "J0:/5A6FC6D5" pin "4" net name from "" to "Net-(J0-Pad4)".
+
+Changing component "J0:/5A6FC6D5" pin "5" net name from "" to "GNDPWR".
+
+Changing component "J0:/5A6FC6D5" pin "6" net name from "" to "Net-(J0-Pad6)".
+
+Changing component "J0:/5A6FC6D5" pin "7" net name from "" to "Net-(J0-Pad7)".
+
+Changing component "J0:/5A6FC6D5" pin "8" net name from "" to "Net-(J0-Pad8)".
+
+Changing component "J0:/5A6FC6D5" pin "9" net name from "" to "Net-(J0-Pad9)".
+
+Info: Checking netlist component footprint "J1:/5A6FD7E1:Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Adding new component "J1:/5A6FD7E1" footprint "Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Changing component "J1:/5A6FD7E1" pin "1" net name from "" to "Net-(J1-Pad1)".
+
+Changing component "J1:/5A6FD7E1" pin "2" net name from "" to "Net-(J1-Pad2)".
+
+Changing component "J1:/5A6FD7E1" pin "3" net name from "" to "Net-(J1-Pad3)".
+
+Changing component "J1:/5A6FD7E1" pin "4" net name from "" to "Net-(J1-Pad4)".
+
+Changing component "J1:/5A6FD7E1" pin "5" net name from "" to "GNDPWR".
+
+Changing component "J1:/5A6FD7E1" pin "6" net name from "" to "Net-(J1-Pad6)".
+
+Changing component "J1:/5A6FD7E1" pin "7" net name from "" to "Net-(J1-Pad7)".
+
+Changing component "J1:/5A6FD7E1" pin "8" net name from "" to "Net-(J1-Pad8)".
+
+Changing component "J1:/5A6FD7E1" pin "9" net name from "" to "Net-(J1-Pad9)".
+
+Info: Checking netlist component footprint "J2:/5A6FDC29:Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Adding new component "J2:/5A6FDC29" footprint "Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Changing component "J2:/5A6FDC29" pin "1" net name from "" to "Net-(J2-Pad1)".
+
+Changing component "J2:/5A6FDC29" pin "2" net name from "" to "Net-(J2-Pad2)".
+
+Changing component "J2:/5A6FDC29" pin "3" net name from "" to "Net-(J2-Pad3)".
+
+Changing component "J2:/5A6FDC29" pin "4" net name from "" to "Net-(J2-Pad4)".
+
+Changing component "J2:/5A6FDC29" pin "5" net name from "" to "GNDPWR".
+
+Changing component "J2:/5A6FDC29" pin "6" net name from "" to "Net-(J2-Pad6)".
+
+Changing component "J2:/5A6FDC29" pin "7" net name from "" to "Net-(J2-Pad7)".
+
+Changing component "J2:/5A6FDC29" pin "8" net name from "" to "Net-(J2-Pad8)".
+
+Changing component "J2:/5A6FDC29" pin "9" net name from "" to "Net-(J2-Pad9)".
+
+Info: Checking netlist component footprint "J3:/5A6FF84F:Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Adding new component "J3:/5A6FF84F" footprint "Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Changing component "J3:/5A6FF84F" pin "1" net name from "" to "Net-(J3-Pad1)".
+
+Changing component "J3:/5A6FF84F" pin "2" net name from "" to "Net-(J3-Pad2)".
+
+Changing component "J3:/5A6FF84F" pin "3" net name from "" to "Net-(J3-Pad3)".
+
+Changing component "J3:/5A6FF84F" pin "4" net name from "" to "Net-(J3-Pad4)".
+
+Changing component "J3:/5A6FF84F" pin "5" net name from "" to "GNDPWR".
+
+Changing component "J3:/5A6FF84F" pin "6" net name from "" to "Net-(J3-Pad6)".
+
+Changing component "J3:/5A6FF84F" pin "7" net name from "" to "Net-(J3-Pad7)".
+
+Changing component "J3:/5A6FF84F" pin "8" net name from "" to "Net-(J3-Pad8)".
+
+Changing component "J3:/5A6FF84F" pin "9" net name from "" to "Net-(J3-Pad9)".
+
+Info: Checking netlist component footprint "J4:/5A704630:Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Adding new component "J4:/5A704630" footprint "Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Changing component "J4:/5A704630" pin "1" net name from "" to "Net-(J4-Pad1)".
+
+Changing component "J4:/5A704630" pin "2" net name from "" to "Net-(J4-Pad2)".
+
+Changing component "J4:/5A704630" pin "3" net name from "" to "Net-(J4-Pad3)".
+
+Changing component "J4:/5A704630" pin "4" net name from "" to "Net-(J4-Pad4)".
+
+Changing component "J4:/5A704630" pin "5" net name from "" to "GNDPWR".
+
+Changing component "J4:/5A704630" pin "6" net name from "" to "Net-(J4-Pad6)".
+
+Changing component "J4:/5A704630" pin "7" net name from "" to "Net-(J4-Pad7)".
+
+Changing component "J4:/5A704630" pin "8" net name from "" to "Net-(J4-Pad8)".
+
+Changing component "J4:/5A704630" pin "9" net name from "" to "Net-(J4-Pad9)".
+
+Info: Checking netlist component footprint "J5:/5A70466E:Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Adding new component "J5:/5A70466E" footprint "Connectors_DSub:DSUB-9_Male_Vertical_Pitch2.77x2.84mm_MountingHoles".
+
+Changing component "J5:/5A70466E" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "J5:/5A70466E" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/5A70466E" pin "3" net name from "" to "Net-(J5-Pad3)".
+
+Changing component "J5:/5A70466E" pin "4" net name from "" to "Net-(J5-Pad4)".
+
+Changing component "J5:/5A70466E" pin "5" net name from "" to "GNDPWR".
+
+Changing component "J5:/5A70466E" pin "6" net name from "" to "Net-(J5-Pad6)".
+
+Changing component "J5:/5A70466E" pin "7" net name from "" to "Net-(J5-Pad7)".
+
+Changing component "J5:/5A70466E" pin "8" net name from "" to "Net-(J5-Pad8)".
+
+Changing component "J5:/5A70466E" pin "9" net name from "" to "Net-(J5-Pad9)".
+
+Info: Checking netlist component footprint "J10:/5A725200:Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Adding new component "J10:/5A725200" footprint "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Changing component "J10:/5A725200" pin "1" net name from "" to "GNDPWR".
+
+Changing component "J10:/5A725200" pin "2" net name from "" to "+5V".
+
+Changing component "J10:/5A725200" pin "3" net name from "" to "TRG0".
+
+Info: Checking netlist component footprint "J11:/5A72B88E:Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Adding new component "J11:/5A72B88E" footprint "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Changing component "J11:/5A72B88E" pin "1" net name from "" to "GNDPWR".
+
+Changing component "J11:/5A72B88E" pin "2" net name from "" to "+5V".
+
+Changing component "J11:/5A72B88E" pin "3" net name from "" to "TRG1".
+
+Info: Checking netlist component footprint "J12:/5A72C619:Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Adding new component "J12:/5A72C619" footprint "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Changing component "J12:/5A72C619" pin "1" net name from "" to "GNDPWR".
+
+Changing component "J12:/5A72C619" pin "2" net name from "" to "+5V".
+
+Changing component "J12:/5A72C619" pin "3" net name from "" to "TRG2".
+
+Info: Checking netlist component footprint "J13:/5A72BBAF:Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Adding new component "J13:/5A72BBAF" footprint "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Changing component "J13:/5A72BBAF" pin "1" net name from "" to "GNDPWR".
+
+Changing component "J13:/5A72BBAF" pin "2" net name from "" to "+5V".
+
+Changing component "J13:/5A72BBAF" pin "3" net name from "" to "TRG3".
+
+Info: Checking netlist component footprint "J14:/5A730842:Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Adding new component "J14:/5A730842" footprint "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Changing component "J14:/5A730842" pin "1" net name from "" to "GNDPWR".
+
+Changing component "J14:/5A730842" pin "2" net name from "" to "+5V".
+
+Changing component "J14:/5A730842" pin "3" net name from "" to "TRG4".
+
+Info: Checking netlist component footprint "J15:/5A740443:Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Adding new component "J15:/5A740443" footprint "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm".
+
+Changing component "J15:/5A740443" pin "1" net name from "" to "GNDPWR".
+
+Changing component "J15:/5A740443" pin "2" net name from "" to "+5V".
+
+Changing component "J15:/5A740443" pin "3" net name from "" to "TRG5".
+
+Info: Checking netlist component footprint "P1:/5A751D8A:Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Adding new component "P1:/5A751D8A" footprint "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Changing component "P1:/5A751D8A" pin "1" net name from "" to "Net-(P1-Pad1)".
+
+Info: Checking netlist component footprint "P3:/5A752511:Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Adding new component "P3:/5A752511" footprint "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Changing component "P3:/5A752511" pin "1" net name from "" to "Net-(P3-Pad1)".
+
+Info: Checking netlist component footprint "P5:/5A75284D:Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Adding new component "P5:/5A75284D" footprint "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Changing component "P5:/5A75284D" pin "1" net name from "" to "Net-(P5-Pad1)".
+
+Info: Checking netlist component footprint "P12:/5A752C27:Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Adding new component "P12:/5A752C27" footprint "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Changing component "P12:/5A752C27" pin "1" net name from "" to "Net-(P12-Pad1)".
+
+Info: Checking netlist component footprint "P27:/5A7514A6:Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Adding new component "P27:/5A7514A6" footprint "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Changing component "P27:/5A7514A6" pin "1" net name from "" to "Net-(P27-Pad1)".
+
+Info: Checking netlist component footprint "P28:/5A7515EB:Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Adding new component "P28:/5A7515EB" footprint "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm".
+
+Changing component "P28:/5A7515EB" pin "1" net name from "" to "Net-(P28-Pad1)".
+
+Info: Checking netlist component footprint "Q0:/5A6FC6DB:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q0:/5A6FC6DB" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q0:/5A6FC6DB" pin "1" net name from "" to "Net-(D0-Pad1)".
+
+Changing component "Q0:/5A6FC6DB" pin "2" net name from "" to "GNDPWR".
+
+Changing component "Q0:/5A6FC6DB" pin "3" net name from "" to "RX0".
+
+Info: Checking netlist component footprint "Q1:/5A6FD7E7:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q1:/5A6FD7E7" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q1:/5A6FD7E7" pin "1" net name from "" to "Net-(D10-Pad1)".
+
+Changing component "Q1:/5A6FD7E7" pin "2" net name from "" to "GNDPWR".
+
+Changing component "Q1:/5A6FD7E7" pin "3" net name from "" to "RX1".
+
+Info: Checking netlist component footprint "Q2:/5A6FDC30:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q2:/5A6FDC30" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q2:/5A6FDC30" pin "1" net name from "" to "Net-(D20-Pad1)".
+
+Changing component "Q2:/5A6FDC30" pin "2" net name from "" to "GNDPWR".
+
+Changing component "Q2:/5A6FDC30" pin "3" net name from "" to "RX2".
+
+Info: Checking netlist component footprint "Q3:/5A6FF856:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q3:/5A6FF856" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q3:/5A6FF856" pin "1" net name from "" to "Net-(D30-Pad1)".
+
+Changing component "Q3:/5A6FF856" pin "2" net name from "" to "GNDPWR".
+
+Changing component "Q3:/5A6FF856" pin "3" net name from "" to "RX3".
+
+Info: Checking netlist component footprint "Q4:/5A704636:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q4:/5A704636" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q4:/5A704636" pin "1" net name from "" to "Net-(D40-Pad1)".
+
+Changing component "Q4:/5A704636" pin "2" net name from "" to "GNDPWR".
+
+Changing component "Q4:/5A704636" pin "3" net name from "" to "RX4".
+
+Info: Checking netlist component footprint "Q5:/5A704674:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q5:/5A704674" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q5:/5A704674" pin "1" net name from "" to "Net-(D50-Pad1)".
+
+Changing component "Q5:/5A704674" pin "2" net name from "" to "GNDPWR".
+
+Changing component "Q5:/5A704674" pin "3" net name from "" to "RX5".
+
+Info: Checking netlist component footprint "R0:/5A6FC6ED:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R0:/5A6FC6ED" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R0:/5A6FC6ED" pin "1" net name from "" to "Net-(J0-Pad2)".
+
+Changing component "R0:/5A6FC6ED" pin "2" net name from "" to "Net-(D0-Pad1)".
+
+Info: Checking netlist component footprint "R1:/5A6FC6E1:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R1:/5A6FC6E1" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R1:/5A6FC6E1" pin "1" net name from "" to "GNDPWR".
+
+Changing component "R1:/5A6FC6E1" pin "2" net name from "" to "Net-(D0-Pad1)".
+
+Info: Checking netlist component footprint "R2:/5A6FC6F3:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R2:/5A6FC6F3" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R2:/5A6FC6F3" pin "1" net name from "" to "RX0".
+
+Changing component "R2:/5A6FC6F3" pin "2" net name from "" to "Net-(D1-Pad1)".
+
+Info: Checking netlist component footprint "R3:/5A742F7D:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R3:/5A742F7D" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R3:/5A742F7D" pin "1" net name from "" to "IND0".
+
+Changing component "R3:/5A742F7D" pin "2" net name from "" to "Net-(D2-Pad1)".
+
+Info: Checking netlist component footprint "R10:/5A6FD7F9:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R10:/5A6FD7F9" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R10:/5A6FD7F9" pin "1" net name from "" to "Net-(J1-Pad2)".
+
+Changing component "R10:/5A6FD7F9" pin "2" net name from "" to "Net-(D10-Pad1)".
+
+Info: Checking netlist component footprint "R11:/5A6FD7ED:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R11:/5A6FD7ED" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R11:/5A6FD7ED" pin "1" net name from "" to "GNDPWR".
+
+Changing component "R11:/5A6FD7ED" pin "2" net name from "" to "Net-(D10-Pad1)".
+
+Info: Checking netlist component footprint "R12:/5A6FD7FF:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R12:/5A6FD7FF" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R12:/5A6FD7FF" pin "1" net name from "" to "RX1".
+
+Changing component "R12:/5A6FD7FF" pin "2" net name from "" to "Net-(D11-Pad1)".
+
+Info: Checking netlist component footprint "R13:/5A73E3AF:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R13:/5A73E3AF" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R13:/5A73E3AF" pin "1" net name from "" to "IND1".
+
+Changing component "R13:/5A73E3AF" pin "2" net name from "" to "Net-(D12-Pad1)".
+
+Info: Checking netlist component footprint "R20:/5A6FDC45:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R20:/5A6FDC45" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R20:/5A6FDC45" pin "1" net name from "" to "Net-(J2-Pad2)".
+
+Changing component "R20:/5A6FDC45" pin "2" net name from "" to "Net-(D20-Pad1)".
+
+Info: Checking netlist component footprint "R21:/5A6FDC37:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R21:/5A6FDC37" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R21:/5A6FDC37" pin "1" net name from "" to "GNDPWR".
+
+Changing component "R21:/5A6FDC37" pin "2" net name from "" to "Net-(D20-Pad1)".
+
+Info: Checking netlist component footprint "R22:/5A6FDC4C:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R22:/5A6FDC4C" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R22:/5A6FDC4C" pin "1" net name from "" to "RX2".
+
+Changing component "R22:/5A6FDC4C" pin "2" net name from "" to "Net-(D21-Pad1)".
+
+Info: Checking netlist component footprint "R23:/5A74CE20:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R23:/5A74CE20" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R23:/5A74CE20" pin "1" net name from "" to "IND2".
+
+Changing component "R23:/5A74CE20" pin "2" net name from "" to "Net-(D22-Pad1)".
+
+Info: Checking netlist component footprint "R30:/5A6FF86B:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R30:/5A6FF86B" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R30:/5A6FF86B" pin "1" net name from "" to "Net-(J3-Pad2)".
+
+Changing component "R30:/5A6FF86B" pin "2" net name from "" to "Net-(D30-Pad1)".
+
+Info: Checking netlist component footprint "R31:/5A6FF85D:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R31:/5A6FF85D" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R31:/5A6FF85D" pin "1" net name from "" to "GNDPWR".
+
+Changing component "R31:/5A6FF85D" pin "2" net name from "" to "Net-(D30-Pad1)".
+
+Info: Checking netlist component footprint "R32:/5A6FF872:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R32:/5A6FF872" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R32:/5A6FF872" pin "1" net name from "" to "RX3".
+
+Changing component "R32:/5A6FF872" pin "2" net name from "" to "Net-(D31-Pad1)".
+
+Info: Checking netlist component footprint "R33:/5A74DE02:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R33:/5A74DE02" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R33:/5A74DE02" pin "1" net name from "" to "IND3".
+
+Changing component "R33:/5A74DE02" pin "2" net name from "" to "Net-(D32-Pad1)".
+
+Info: Checking netlist component footprint "R40:/5A704648:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R40:/5A704648" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R40:/5A704648" pin "1" net name from "" to "Net-(J4-Pad2)".
+
+Changing component "R40:/5A704648" pin "2" net name from "" to "Net-(D40-Pad1)".
+
+Info: Checking netlist component footprint "R41:/5A70463C:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R41:/5A70463C" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R41:/5A70463C" pin "1" net name from "" to "GNDPWR".
+
+Changing component "R41:/5A70463C" pin "2" net name from "" to "Net-(D40-Pad1)".
+
+Info: Checking netlist component footprint "R42:/5A70464E:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R42:/5A70464E" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R42:/5A70464E" pin "1" net name from "" to "RX4".
+
+Changing component "R42:/5A70464E" pin "2" net name from "" to "Net-(D41-Pad1)".
+
+Info: Checking netlist component footprint "R43:/5A75399E:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R43:/5A75399E" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R43:/5A75399E" pin "1" net name from "" to "IND4".
+
+Changing component "R43:/5A75399E" pin "2" net name from "" to "Net-(D42-Pad1)".
+
+Info: Checking netlist component footprint "R50:/5A704686:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R50:/5A704686" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R50:/5A704686" pin "1" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "R50:/5A704686" pin "2" net name from "" to "Net-(D50-Pad1)".
+
+Info: Checking netlist component footprint "R51:/5A70467A:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R51:/5A70467A" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R51:/5A70467A" pin "1" net name from "" to "GNDPWR".
+
+Changing component "R51:/5A70467A" pin "2" net name from "" to "Net-(D50-Pad1)".
+
+Info: Checking netlist component footprint "R52:/5A70468C:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R52:/5A70468C" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R52:/5A70468C" pin "1" net name from "" to "RX5".
+
+Changing component "R52:/5A70468C" pin "2" net name from "" to "Net-(D51-Pad1)".
+
+Info: Checking netlist component footprint "R53:/5A767EE5:Resistors_SMD:R_0805_HandSoldering".
+
+Adding new component "R53:/5A767EE5" footprint "Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R53:/5A767EE5" pin "1" net name from "" to "IND5".
+
+Changing component "R53:/5A767EE5" pin "2" net name from "" to "Net-(D52-Pad1)".
+
+Info: Checking netlist component footprint "U1:/5A6FB328:Feather M0:featherm0".
+
+Adding new component "U1:/5A6FB328" footprint "Feather M0:featherm0".
+
+Changing component "U1:/5A6FB328" pin "1" net name from "" to "Net-(P1-Pad1)".
+
+Changing component "U1:/5A6FB328" pin "2" net name from "" to "+3V3".
+
+Changing component "U1:/5A6FB328" pin "3" net name from "" to "Net-(P3-Pad1)".
+
+Changing component "U1:/5A6FB328" pin "4" net name from "" to "GNDPWR".
+
+Changing component "U1:/5A6FB328" pin "28" net name from "" to "Net-(P28-Pad1)".
+
+Changing component "U1:/5A6FB328" pin "5" net name from "" to "Net-(P5-Pad1)".
+
+Changing component "U1:/5A6FB328" pin "27" net name from "" to "Net-(P27-Pad1)".
+
+Changing component "U1:/5A6FB328" pin "6" net name from "" to "RX4".
+
+Changing component "U1:/5A6FB328" pin "26" net name from "" to "+5V".
+
+Changing component "U1:/5A6FB328" pin "7" net name from "" to "TRG4".
+
+Changing component "U1:/5A6FB328" pin "25" net name from "" to "TRG1".
+
+Changing component "U1:/5A6FB328" pin "8" net name from "" to "RX0".
+
+Changing component "U1:/5A6FB328" pin "24" net name from "" to "IND1".
+
+Changing component "U1:/5A6FB328" pin "9" net name from "" to "TRG0".
+
+Changing component "U1:/5A6FB328" pin "23" net name from "" to "RX1".
+
+Changing component "U1:/5A6FB328" pin "10" net name from "" to "IND5".
+
+Changing component "U1:/5A6FB328" pin "22" net name from "" to "RX3".
+
+Changing component "U1:/5A6FB328" pin "11" net name from "" to "IND4".
+
+Changing component "U1:/5A6FB328" pin "21" net name from "" to "IND0".
+
+Changing component "U1:/5A6FB328" pin "12" net name from "" to "Net-(P12-Pad1)".
+
+Changing component "U1:/5A6FB328" pin "20" net name from "" to "TRG3".
+
+Changing component "U1:/5A6FB328" pin "13" net name from "" to "RX2".
+
+Changing component "U1:/5A6FB328" pin "19" net name from "" to "IND3".
+
+Changing component "U1:/5A6FB328" pin "14" net name from "" to "IND2".
+
+Changing component "U1:/5A6FB328" pin "18" net name from "" to "TRG5".
+
+Changing component "U1:/5A6FB328" pin "15" net name from "" to "TRG2".
+
+Changing component "U1:/5A6FB328" pin "17" net name from "" to "RX5".
+
+Changing component "U1:/5A6FB328" pin "16" net name from "" to "GNDPWR".
+

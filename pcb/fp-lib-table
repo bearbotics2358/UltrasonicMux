@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connectors_DSub)(type KiCad)(uri "$(KIPRJMOD)/Connectors_DSub.pretty")(options "")(descr ""))
+  (lib (name "Feather M0")(type KiCad)(uri "$(KIPRJMOD)/featherm0.pretty")(options "")(descr ""))
+)

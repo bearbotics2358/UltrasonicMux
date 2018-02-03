@@ -1,6 +1,10 @@
-update=2/3/2018 11:35:09 AM
+update=Mon 31 Jul 2017 10:04:56 AM MDT
 version=1
 last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,11 +27,9 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=V:/Robotics Club/FIRST/Software/17-18 Season/Ultrasonic Mux/pcb
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,14 +63,3 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=featherm0
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
