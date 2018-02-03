@@ -1412,7 +1412,7 @@ U 1 1 5A757367
 P 6750 2400
 F 0 "+5Vp1" V 6850 2400 50  0000 C CNN
 F 1 " " H 6750 2300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm" H 6750 2400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6750 2400 50  0001 C CNN
 F 3 "" H 6750 2400 50  0001 C CNN
 	1    6750 2400
 	0    1    1    0   
@@ -1423,7 +1423,7 @@ U 1 1 5A757808
 P 7100 2450
 F 0 "+3V3p1" V 7200 2450 50  0000 C CNN
 F 1 " " H 7100 2350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm" H 7100 2450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 7100 2450 50  0001 C CNN
 F 3 "" H 7100 2450 50  0001 C CNN
 	1    7100 2450
 	0    1    1    0   
@@ -1434,7 +1434,7 @@ U 1 1 5A757B55
 P 7450 2200
 F 0 "GNDp1" V 7550 2200 50  0000 C CNN
 F 1 " " H 7450 2100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm" H 7450 2200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 7450 2200 50  0001 C CNN
 F 3 "" H 7450 2200 50  0001 C CNN
 	1    7450 2200
 	0    -1   -1   0   
