@@ -173,10 +173,10 @@ F 3 "" H 4800 1500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMBT3904 Q?
+L MMBT3904 Q1
 U 1 1 5A6FD7E7
 P 6100 1700
-F 0 "Q?" H 6300 1775 50  0000 L CNN
+F 0 "Q1" H 6300 1775 50  0000 L CNN
 F 1 "MMBT3904" H 6300 1700 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6300 1625 50  0001 L CIN
 F 3 "" H 6100 1700 50  0001 L CNN
@@ -455,7 +455,7 @@ Text GLabel 3150 5850 2    60   Input ~ 0
 RX3
 Text GLabel 8050 3700 2    60   Input ~ 0
 RX1
-Text GLabel 3300 4200 0    60   Input ~ 0
+Text GLabel 3300 4000 0    60   Input ~ 0
 RX2
 Text GLabel 8350 3800 2    60   Input ~ 0
 RX3
@@ -970,7 +970,7 @@ Wire Wire Line
 	8350 3600 7800 3600
 Text GLabel 3600 4100 0    60   Input ~ 0
 IND2
-Text GLabel 3300 4000 0    60   Input ~ 0
+Text GLabel 3300 4200 0    60   Input ~ 0
 TRG2
 $Comp
 L LED D12
