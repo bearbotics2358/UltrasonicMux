@@ -102,15 +102,14 @@ void loop()
         // temp variables in case optimizer is not efficient
         c1 = toupper(cmd_buf[0]);
         c2 = cmd_buf[1];
-        if(c1 >= 'A') && (c1 <= 'D') {
-          if(c2 >= '0') && (c2 <= '1') {
+        if((c1 >= 'A') && (c1 <= 'D')) {
+          if((c2 >= '0') && (c2 <= '1')) {
             enable[int(c1 - 'A')] = int(c2 - '0');
           }
         } else if(c1 == 'S') {
-           if(c2 >= '0') && (c2 <= '1') {
+           if((c2 >= '0') && (c2 <= '1')) {
             simul = int(c2 - '0');
           }
-        }
         }
       }
 
