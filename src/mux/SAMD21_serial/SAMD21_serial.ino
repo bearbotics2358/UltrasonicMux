@@ -37,7 +37,7 @@ Uart mySerial5 (&sercom5, SDA, -1, SERCOM_RX_PAD_0, UART_TX_PAD_2); // Create th
 Uart *mySerials[] = {&mySerial0, &mySerial1, &mySerial2, &mySerial3, &mySerial4, &mySerial5};
 // trigger pins
 int trigs[] = {A4, 13, 1, 6, A2, 21}; // is 21 legal?
-
+int msg_rcvd[6];
 
 #define IND0 9
 
@@ -45,6 +45,7 @@ int led0 = 0;
 
 char buf[6][80];
 int nbuf[6];
+long t1;
 
 void setup() {
   int i;
@@ -83,39 +84,126 @@ void setup() {
 
   for(i = 0; i < 6; i++) {
     nbuf[i] = 0;
+    msg_rcvd[i] = 0;
   }
 
-  // turn on all triggers
   for(i = 0; i < 6; i++) {
     pinMode(trigs[i], OUTPUT);
+  }
+  
+  trigger_all(HIGH);
+  t1 = millis();
+}
+
+void trigger_all(int onoff) {
+  int i;
+  
+  // turn all triggers on or off
+  for(i = 0; i < 6; i++) {
+    trigger(i, onoff);
+  }  
+}
+
+void trigger(int chan, int onoff) {
+  int i;
+  
+  // For the Ultrasonics, on is high
+  // for the Ultrasonic Mux, it is buffered thru an inverter
+  if(onoff) {
+    // inverted logic
     digitalWrite(trigs[i], 0);
+  } else {
+    digitalWrite(trigs[i], 1);
   }
 }
+
+int all_msgs_rcvd() {
+  int ret = 1;
+  int i;
+
+  for(i = 0; i < 6; i++) {
+    if(!msg_rcvd[i]) {
+      ret = 0;
+      break;
+    }
+  }
+  return ret;
+}
+
+int clear_msgs_rcvd() {
+  int i;
+
+  for(i = 0; i < 6; i++) {
+    msg_rcvd[i] = 0;
+  }
+}
+
 
 void loop() {
   char c;
   int i;
 
+  if(millis() > t1 + 100) {
+    // stop waiting
+    for(i = 0; i < 6; i++) {
+      if(!msg_rcvd[i]) {
+        // put in bogus reading
+        buf[i][0] = 'A' + i;
+        buf[i][1] = '9';
+        buf[i][2] = '9';
+        buf[i][3] = '9';
+        buf[i][4] = '9';
+        buf[i][5] = 0;
+        msg_rcvd[i] = 1;
+      }
+    }
+  }
+  
+  if(all_msgs_rcvd()) {
+    clear_msgs_rcvd();
+    for(int j = 0; j < 6; j++) {
+      Serial.print(buf[j]);
+      if(j == 5) {
+        Serial.print('\r');
+      } else {
+        Serial.print('\t');
+      }
+    }
+    
+    // For now, trigger all at the same time
+    trigger_all(1);
+    t1 = millis();    
+  }
+  
   for(i = 0; i < 6; i++) {
     while(mySerials[i]->available()) {
      c = mySerials[i]->read();
      // Serial.print("0x");
      // Serial.println(c, HEX);
      buf[i][nbuf[i]] = c;
-     nbuf[i]++;
-     if(nbuf[i] > 79) {
-       nbuf[i] = 0;
+     if(nbuf[i] == 0) {
+       // replace 'R' with channel letter
+       buf[i][0] = 'A' + i; 
      }
      if(c == '\r') {
        buf[i][nbuf[i]] = 0;
-       Serial.print(i);
-       Serial.print(": ");
-       Serial.println(buf[i]);
+       // Serial.print(i);
+       // Serial.print(": ");
+       // Serial.println(buf[i]);
        nbuf[i] = 0;
        led0 = !led0;
        digitalWrite(IND0, led0);
+       // turn off trigger to this channel
+       trigger(i, 0);
+       msg_rcvd[i] = 1;
+     } else {
+      nbuf[i]++;
+      if(nbuf[i] > 79) {
+        nbuf[i] = 0;
+      }
      }
    }
+
    delay(1);        // delay in between reads for stability
   }
 }
